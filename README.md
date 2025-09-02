@@ -1,4 +1,4 @@
-Here's a [live example](https://codepen.io/pzjohnson/pen/myezpzK) on CodePen.
+Here's a [live example](https://codepen.io/xmsdtxld-the-lessful/pen/GgpwEKK) on CodePen.
 
 # Quickstart
 
@@ -18,19 +18,20 @@ var src = 'https://code.rnacanvas.app?'
   + '&dot_bracket=(((((((....)))))))...(((((((((((.....(((((.......)))))..))))))))))).....';
 ```
 
-The resulting `<iframe>` element would be:
+The resulting `<iframe>` element would look like:
 
 ```html
 <iframe
   src="https://code.rnacanvas.app?sequence=AGAGUAGCAUUCUGCUUUAGACUGUUAACUUUAUGAACCACGCGUGUCACGUGGGGAGAGUUAACAGCGCCC&dot_bracket=(((((((....)))))))...(((((((((((.....(((((.......)))))..)))))))))))....."
 
-  <!-- The dimensions of the RNA structure drawing. -->
   width="800"
   height="600"
 ></iframe>
 ```
 
-In this case, we are making use of the RNAcanvas [URL interface](https://pzhaojohnson.github.io/rnacanvas.url-interface/)
+In this case, the `<iframe>` element is set to have a width of `800` pixels and a height of `600` pixels.
+
+The above technique makes use of the RNAcanvas [URL interface](https://pzhaojohnson.github.io/rnacanvas.url-interface/)
 and the `sequence` and `dot_bracket` URL parameters.
 
 ### Hiding the peripheral UI
@@ -63,7 +64,7 @@ var src = 'https://code.rnacanvas.app?'
   + '&peripheral_ui=minimal';
 ```
 
-This will result in a top-right `Edit` button being shown,
+This will result in only a top-right `Edit` button being shown,
 which when clicked will reopen the drawing in a new tab of RNAcanvas
 possessing the full peripheral UI.
 
@@ -80,7 +81,6 @@ To hide this, one can set the `border` CSS property to `none`.
   width="800"
   height="600"
 
-  <!-- Hide the border. -->
   style="border: none;"
 ></iframe>
 ```
@@ -94,7 +94,6 @@ Alternatively, the border can be styled as with any HTML element.
   width="800"
   height="600"
 
-  <!-- Light gray border. -->
   style="border: 1px solid #bbb;"
 ></iframe>
 ```
@@ -102,18 +101,16 @@ Alternatively, the border can be styled as with any HTML element.
 # Coloring bases according to data
 
 Bases can be given colored outlines according to data
-(e.g., base-pair probability data, positional entropy data)
-using the `data` URL parameter.
+(e.g., base-pair probability data, positional entropy data).
 
 See the [Coloring bases according data](https://pzhaojohnson.github.io/rnacanvas.url-interface/) section
-of the RNAcanvas URL interface documentation for more information.
+of the RNAcanvas URL interface documentation.
 
 # Advanced methods
 
 The JavaScript / TypeScript interface of the RNAcanvas app object
-can also be used to draw nucleic acid structures.
-
-Here's a [live example](https://codepen.io/pzjohnson/pen/xxoKvGp) on CodePen.
+can also be used to draw nucleic acid structures
+(documentation [here](https://pzhaojohnson.github.io/rnacanvas.embedded/)).
 
 Usage of the JavaScript / TypeScript interface
 allows for granular control over nucleic acid structure drawings
