@@ -113,5 +113,4 @@ can also be used to draw nucleic acid structures
 (documentation [here](https://pzhaojohnson.github.io/rnacanvas.embedded/)).
 
 Usage of the JavaScript / TypeScript interface
-allows for granular control over nucleic acid structure drawings
-(e.g., the coloring and layout of bases).
+allows for granular script-based control of nucleic acid structure drawings.
