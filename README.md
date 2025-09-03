@@ -106,7 +106,7 @@ Bases can be given colored outlines according to data
 (e.g., base-pair probability data, positional entropy data).
 
 See the [Coloring bases according data](https://pzhaojohnson.github.io/rnacanvas.url-interface/) section
-of the RNAcanvas URL interface documentation.
+of the RNAcanvas URL interface documentation for more information.
 
 # Advanced methods
 
