@@ -29,7 +29,7 @@ The resulting `<iframe>` element would look like:
 ></iframe>
 ```
 
-<b>The above</b> `<iframe>` <b>HTML code can be directly copy-and-pasted into a website like</b> [CodePen](https://codepen.io/pen/)<b>.</b>
+<b>The above</b> `<iframe>` <b>HTML code can be directly copy-and-pasted into a website (such as</b> [CodePen](https://codepen.io/pen/)<b>).</b>
 
 In this case, the `<iframe>` element is given a width of `800` pixels and a height of `600` pixels.
 
