@@ -29,10 +29,12 @@ The resulting `<iframe>` element would look like:
 ></iframe>
 ```
 
-In this case, the `<iframe>` element is set to have a width of `800` pixels and a height of `600` pixels.
+<b>The above</b> `<iframe>` <b>HTML code can be directly copy-and-pasted into a website like</b> [CodePen](https://codepen.io/pen/)<b>.</b>
 
-The above technique makes use of the RNAcanvas [URL interface](https://pzhaojohnson.github.io/rnacanvas.url-interface/)
-and the `sequence` and `dot_bracket` URL parameters.
+In this case, the `<iframe>` element is given a width of `800` pixels and a height of `600` pixels.
+
+The `sequence` and `dot_bracket` URL parameters of the RNAcanvas [URL interface](https://pzhaojohnson.github.io/rnacanvas.url-interface/)
+are made use of in this example.
 
 ### Hiding the peripheral UI
 
