@@ -13,9 +13,11 @@ AGAGUAGCAUUCUGCUUUAGACUGUUAACUUUAUGAACCACGCGUGUCACGUGGGGAGAGUUAACAGCGCCC
 
 ```javascript
 // JavaScript code to construct the `src` attribute
-var src = 'https://code.rnacanvas.app?'
-  + 'sequence=' + 'AGAGUAGCAUUCUGCUUUAGACUGUUAACUUUAUGAACCACGCGUGUCACGUGGGGAGAGUUAACAGCGCCC'
-  + '&dot_bracket=' + '(((((((....)))))))...(((((((((((.....(((((.......)))))..))))))))))).....';
+var src = (
+  'https://code.rnacanvas.app?'
+  + 'sequence=AGAGUAGCAUUCUGCUUUAGACUGUUAACUUUAUGAACCACGCGUGUCACGUGGGGAGAGUUAACAGCGCCC'
+  + '&dot_bracket=(((((((....)))))))...(((((((((((.....(((((.......)))))..))))))))))).....'
+);
 ```
 
 The resulting `<iframe>` element would look like:
@@ -43,12 +45,14 @@ set the `peripheral_ui` URL parameter to `none`.
 
 ```javascript
 // JavaScript code to construct the `src` attribute
-var src = 'https://code.rnacanvas.app?'
-  + 'sequence=' + 'AGAGUAGCAUUCUGCUUUAGACUGUUAACUUUAUGAACCACGCGUGUCACGUGGGGAGAGUUAACAGCGCCC'
-  + '&dot_bracket=' + '(((((((....)))))))...(((((((((((.....(((((.......)))))..))))))))))).....'
+var src = (
+  'https://code.rnacanvas.app?'
+  + 'sequence=AGAGUAGCAUUCUGCUUUAGACUGUUAACUUUAUGAACCACGCGUGUCACGUGGGGAGAGUUAACAGCGCCC'
+  + '&dot_bracket=(((((((....)))))))...(((((((((((.....(((((.......)))))..))))))))))).....'
 
   // set to "none"
-  + '&peripheral_ui=' + 'none';
+  + '&peripheral_ui=none'
+);
 ```
 
 ### Showing a minimal peripheral UI
@@ -58,12 +62,14 @@ set the `peripheral_ui` URL parameter to `minimal`.
 
 ```javascript
 // JavaScript code to construct the `src` attribute
-var src = 'https://code.rnacanvas.app?'
-  + 'sequence=' + 'AGAGUAGCAUUCUGCUUUAGACUGUUAACUUUAUGAACCACGCGUGUCACGUGGGGAGAGUUAACAGCGCCC'
-  + '&dot_bracket=' + '(((((((....)))))))...(((((((((((.....(((((.......)))))..))))))))))).....'
+var src = (
+  'https://code.rnacanvas.app?'
+  + 'sequence=AGAGUAGCAUUCUGCUUUAGACUGUUAACUUUAUGAACCACGCGUGUCACGUGGGGAGAGUUAACAGCGCCC'
+  + '&dot_bracket=(((((((....)))))))...(((((((((((.....(((((.......)))))..))))))))))).....'
 
   // set to "minimal"
-  + '&peripheral_ui=' + 'minimal';
+  + '&peripheral_ui=minimal'
+);
 ```
 
 This will result in only a top-right `Edit` button being shown,
